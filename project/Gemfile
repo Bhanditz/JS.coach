@@ -19,7 +19,7 @@ gem 'unicorn' # Use Unicorn as the app server
 gem 'activeadmin', github: 'activeadmin'
 
 # Authentication and Authorization
-gem 'devise' # For user authentication
+gem 'devise' , '>= 4.7.1' # For user authentication
 
 # Deployment
 group :development, :test do
