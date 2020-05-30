@@ -42,7 +42,7 @@ gem 'octokit' # Official Ruby toolkit for the GitHub API
 gem 'progress_bar', require: false # Terminal progress bar used by some rake tasks
 gem 'pg_search' # Named scopes that take advantage of PostgreSQL's full text search
 gem 'draper' # Presentation logic for resources using decorators
-gem 'kaminari' # For pagination
+gem 'kaminari' , '>= 1.2.1' # For pagination
 gem 'memoist' # ActiveSupport::Memoizable with a few enhancements
 gem 'exception_notification' # Exception notifier for Rails
 gem 'slack-notifier' # Slack integration for the `exception_notification` gem
