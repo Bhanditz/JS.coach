@@ -86,12 +86,14 @@ GEM
     capistrano-unicorn-nginx (3.4.0)
       capistrano (>= 3.1)
       sshkit (>= 1.2.0)
-    capybara (2.5.0)
-      mime-types (>= 1.16)
-      nokogiri (>= 1.3.3)
-      rack (>= 1.0.0)
-      rack-test (>= 0.5.4)
-      xpath (~> 2.0)
+    capybara (3.32.2)
+      addressable
+      mini_mime (>= 0.1.3)
+      nokogiri (~> 1.8)
+      rack (>= 1.6.0)
+      rack-test (>= 0.6.3)
+      regexp_parser (~> 1.5)
+      xpath (~> 3.2)
     capybara_minitest_spec (1.0.5)
       capybara (>= 2)
       minitest (>= 4)
@@ -195,7 +197,7 @@ GEM
     method_source (0.8.2)
     mime-types (2.99.3)
     mini_mime (0.1.4)
-    mini_portile2 (2.3.0)
+    mini_portile2 (2.4.0)
     minitest (5.10.3)
     minitest-metadata (0.6.0)
       minitest (>= 4.7, < 6.0)
@@ -204,7 +206,7 @@ GEM
     minitest-spec-rails (5.1.0)
       minitest (~> 5.0)
       rails (~> 4.1)
-    multi_json (1.11.2)
+    multi_json (1.14.1)
     multipart-post (2.0.0)
     naught (1.0.0)
     net-http-digest_auth (1.4)
@@ -212,8 +214,8 @@ GEM
     net-scp (1.2.1)
       net-ssh (>= 2.6.5)
     net-ssh (4.2.0)
-    nokogiri (1.8.1)
-      mini_portile2 (~> 2.3.0)
+    nokogiri (1.10.9)
+      mini_portile2 (~> 2.4.0)
     ntlm-http (0.1.1)
     octokit (4.2.0)
       sawyer (~> 0.6.0, >= 0.5.3)
@@ -224,10 +226,9 @@ GEM
       activerecord (>= 3.1)
       activesupport (>= 3.1)
       arel
-    poltergeist (1.6.0)
-      capybara (~> 2.1)
+    poltergeist (1.18.1)
+      capybara (>= 2.1, < 4)
       cliver (~> 0.3.1)
-      multi_json (~> 1.0)
       websocket-driver (>= 0.2.0)
     polyamorous (1.2.0)
       activerecord (>= 3.0)
@@ -240,7 +241,7 @@ GEM
       slop (~> 3.4)
     pry-rails (0.3.4)
       pry (>= 0.9.10)
-    rack (1.6.8)
+    rack (1.6.13)
     rack-test (0.6.3)
       rack (>= 1.0)
     rails (4.2.10)
@@ -279,6 +280,7 @@ GEM
     recursive-open-struct (0.6.4)
     redcarpet (3.3.2)
     ref (2.0.0)
+    regexp_parser (1.7.0)
     request_store (1.1.0)
     responders (2.1.0)
       railties (>= 4.2.0, < 5)
@@ -353,13 +355,13 @@ GEM
       railties (>= 4.0)
       sprockets-rails (>= 2.0, < 4.0)
     webrobots (0.1.1)
-    websocket-driver (0.6.2)
+    websocket-driver (0.7.2)
       websocket-extensions (>= 0.1.0)
-    websocket-extensions (0.1.2)
+    websocket-extensions (0.1.5)
     whenever (0.9.4)
       chronic (>= 0.6.3)
-    xpath (2.0.0)
-      nokogiri (~> 1.3)
+    xpath (3.2.0)
+      nokogiri (~> 1.8)
 
 PLATFORMS
   ruby
@@ -395,7 +397,7 @@ DEPENDENCIES
   octokit
   pg
   pg_search
-  poltergeist
+  poltergeist (>= 1.6.0)
   progress_bar
   pry-rails
   recursive-open-struct
@@ -413,4 +415,4 @@ DEPENDENCIES
   whenever
 
 BUNDLED WITH
-   1.16.0.pre.3
+   1.17.3
