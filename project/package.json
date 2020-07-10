@@ -4,11 +4,11 @@
     "node": "4.1.x"
   },
   "dependencies": {
-    "cheerio": "^0.19.0",
+    "cheerio": "^0.20.0",
     "d3": "^3.5.12",
     "jsdom": "^7.2.1",
-    "lodash": "^3.10.1",
-    "marky-markdown": "dmfrancisco/marky-markdown",
+    "lodash": "^4.17.16",
+    "marky-markdown": "6.0.4",
     "svgo": "^0.6.1"
   },
   "scripts": {
