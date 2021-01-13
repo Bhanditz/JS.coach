@@ -277,7 +277,7 @@ GEM
       polyamorous (~> 1.2)
     rdoc (4.3.0)
     recursive-open-struct (0.6.4)
-    redcarpet (3.3.2)
+    redcarpet (3.5.1)
     ref (2.0.0)
     request_store (1.1.0)
     responders (2.1.0)
@@ -399,7 +399,7 @@ DEPENDENCIES
   progress_bar
   pry-rails
   recursive-open-struct
-  redcarpet
+  redcarpet (>= 3.5.1)
   sass-rails (~> 5.0)
   sdoc (~> 0.4.0)
   slack-notifier
@@ -413,4 +413,4 @@ DEPENDENCIES
   whenever
 
 BUNDLED WITH
-   1.16.0.pre.3
+   1.17.3
