@@ -34,7 +34,7 @@ end
 
 # Others
 gem 'recursive-open-struct' # OpenStruct that supports nested hashes, used for app config
-gem 'mechanize' # Makes automated web interaction easy
+gem 'mechanize' , '>= 2.7.7' # Makes automated web interaction easy
 gem 'state_machines-activerecord' # Create state machines for attributes on any ruby class
 gem 'friendly_id' # Friendly URLs
 gem 'colorize' # String class extension. Adds methods to set color and text effect on console
