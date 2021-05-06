@@ -275,7 +275,7 @@ GEM
       activesupport (>= 3.0)
       i18n
       polyamorous (~> 1.2)
-    rdoc (4.3.0)
+    rdoc (6.3.1)
     recursive-open-struct (0.6.4)
     redcarpet (3.3.2)
     ref (2.0.0)
@@ -292,9 +292,8 @@ GEM
     sawyer (0.6.0)
       addressable (~> 2.3.5)
       faraday (~> 0.8, < 0.10)
-    sdoc (0.4.1)
-      json (~> 1.7, >= 1.7.7)
-      rdoc (~> 4.0)
+    sdoc (1.0.0)
+      rdoc (>= 5.0)
     simple_oauth (0.3.0)
     slack-notifier (1.5.1)
     slop (3.6.0)
@@ -401,7 +400,7 @@ DEPENDENCIES
   recursive-open-struct
   redcarpet
   sass-rails (~> 5.0)
-  sdoc (~> 0.4.0)
+  sdoc (~> 1.0.0)
   slack-notifier
   spring
   state_machines-activerecord
@@ -413,4 +412,4 @@ DEPENDENCIES
   whenever
 
 BUNDLED WITH
-   1.16.0.pre.3
+   1.17.3
