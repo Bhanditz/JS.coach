@@ -38,7 +38,7 @@ gem 'mechanize' # Makes automated web interaction easy
 gem 'state_machines-activerecord' # Create state machines for attributes on any ruby class
 gem 'friendly_id' # Friendly URLs
 gem 'colorize' # String class extension. Adds methods to set color and text effect on console
-gem 'octokit' # Official Ruby toolkit for the GitHub API
+gem 'octokit' , '>= 4.6.0' # Official Ruby toolkit for the GitHub API
 gem 'progress_bar', require: false # Terminal progress bar used by some rake tasks
 gem 'pg_search' # Named scopes that take advantage of PostgreSQL's full text search
 gem 'draper' # Presentation logic for resources using decorators
@@ -48,7 +48,7 @@ gem 'exception_notification' # Exception notifier for Rails
 gem 'slack-notifier' # Slack integration for the `exception_notification` gem
 gem 'redcarpet' # The safe Markdown parser, reloaded
 gem 'whenever', require: false # Cron jobs
-gem 'twitter', require: false
+gem 'twitter', '>= 5.13.0', require: false
 
 # Gems used for both development and testing
 group :development, :test do
