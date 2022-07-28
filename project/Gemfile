@@ -35,7 +35,7 @@ end
 # Others
 gem 'recursive-open-struct' # OpenStruct that supports nested hashes, used for app config
 gem 'mechanize' # Makes automated web interaction easy
-gem 'state_machines-activerecord' # Create state machines for attributes on any ruby class
+gem 'state_machines-activerecord' , '>= 0.5.1' # Create state machines for attributes on any ruby class
 gem 'friendly_id' # Friendly URLs
 gem 'colorize' # String class extension. Adds methods to set color and text effect on console
 gem 'octokit' # Official Ruby toolkit for the GitHub API
@@ -62,7 +62,7 @@ end
 # Gems used only for tests
 group :test do
   gem 'minitest' # For a newer version than the one that comes with ruby 1.9
-  gem 'minitest-spec-rails' # Make Rails use MiniTest::Spec
+  gem 'minitest-spec-rails' , '>= 5.3.0' # Make Rails use MiniTest::Spec
   gem 'minitest-metadata', require: false # Annotate tests (eg: `it "...", js: true do`)
   gem 'minitest-rg' # Adds red/green color to your Minitest output
   gem 'database_cleaner' # Ensure a clean database during tests
