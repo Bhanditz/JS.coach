@@ -8,7 +8,7 @@
     "d3": "^3.5.12",
     "jsdom": "^7.2.1",
     "lodash": "^3.10.1",
-    "marky-markdown": "dmfrancisco/marky-markdown",
+    "marky-markdown": "12.0.0",
     "svgo": "^0.6.1"
   },
   "scripts": {
