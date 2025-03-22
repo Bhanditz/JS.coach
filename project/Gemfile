@@ -44,7 +44,7 @@ gem 'pg_search' # Named scopes that take advantage of PostgreSQL's full text sea
 gem 'draper' # Presentation logic for resources using decorators
 gem 'kaminari' # For pagination
 gem 'memoist' # ActiveSupport::Memoizable with a few enhancements
-gem 'exception_notification' # Exception notifier for Rails
+gem 'exception_notification' , '>= 5.0.0' # Exception notifier for Rails
 gem 'slack-notifier' # Slack integration for the `exception_notification` gem
 gem 'redcarpet' # The safe Markdown parser, reloaded
 gem 'whenever', require: false # Cron jobs
